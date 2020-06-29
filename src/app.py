@@ -1,14 +1,7 @@
-import os
-import logging
-import datetime
 import importlib
-import dateutil.parser
+import logging
+
 import ccxt
-import numpy as np
-import pandas as pd
-from importlib import reload
-from collections import defaultdict
-from apscheduler.schedulers.background import BackgroundScheduler
 
 importlib.reload(logging)
 LOGGING_FORMAT = '%(asctime)s - %(levelname)s - %(message)s'
