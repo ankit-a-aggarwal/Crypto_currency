@@ -1,0 +1,56 @@
+base_url: https://community-api.coinmetrics.io/
+base_url_version : v2/
+api_endpoint: https://community-api.coinmetrics.io/v2/
+
+assets:
+    name: Get All Crypto Assets
+    url: /assets
+    details: Array of strings (AssetsIds). List of asset identifiers
+    usage: "https://community-api.coinmetrics.io/v2/assets"
+    parameters: 
+    
+exchanges:
+    name: Get All Crypto Exchanges
+    url: /exchanges
+    details: Array of strings (ExchangesIds). List of exchange identifiers
+    usage: https://community-api.coinmetrics.io/v2/exchanges
+    parameters:
+        required:
+        additional:
+
+    
+    
+markets:
+    name: Get All Crypto Markets
+    url: /markets
+    details: Array of strings (MarketsIds). List of market identifiers
+    usage: https://community-api.coinmetrics.io/v2/markets
+    parameters:
+        required:
+        additional:
+
+    
+metrics:
+    name: Get All Crypto Assets Metrics
+    url: /metrics
+    details: Array of strings (MetricsIds). List of metric identifiers
+    usage: https://community-api.coinmetrics.io/v2/metrics
+    parameters:
+        required:
+        additional:
+   
+metric_info:
+    name: Get All Crypto Assets Metrics Information
+    url: /metric_info
+    details: Array of objects (MetricsInfo). Information about metrics
+    usage: https://community-api.coinmetrics.io/v2/metric_info
+    parameters:
+        required:
+        additional:
+        
+
+    
+
+    
+
+    
