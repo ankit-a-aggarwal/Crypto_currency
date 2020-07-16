@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.types import DateTime, Float
 
-CONNECTION = "postgres://username:password@host:port/dbname"
+CONNECTION = "postgres://postgres:myPassword@localhost:5432/cryptoanalysis"
 engine = create_engine(CONNECTION, echo = True)
 
 Base = declarative_base()
