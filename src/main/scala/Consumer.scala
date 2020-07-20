@@ -4,9 +4,11 @@ import java.util.Properties
 import scala.collection.JavaConverters._
 
 class Consumer {
+  
   def main(args: Array[String]): Unit = {
     consumeFromKafka("quick-start")
   }
+
   def consumeFromKafka(topic: String) = {
     val props = new Properties()
     props.put("bootstrap.servers", "localhost:9094")

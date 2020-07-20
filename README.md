@@ -1,7 +1,10 @@
 # Crypto_currency
 Cryptocurrency Data Analysis
 
-For setting up timescaledb microservice use https://github.com/timescale/timescaledb-kubernetes/tree/master/charts/timescaledb-multinode
+Following are the links on how to setup out environment:
+
+Timescaledb := https://github.com/timescale/timescaledb-kubernetes/tree/master/charts/timescaledb-multinode
+
+Kafka := https://github.com/d1egoaz/minikube-kafka-cluster
 
 
-exercism configure --token=9b8937b4-5ef5-434e-ba6f-75648caf90f3

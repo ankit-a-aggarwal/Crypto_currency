@@ -1,6 +1,6 @@
 name := "Crypto Kafka Publisher"
 version := "1.0"
-resolvers += "jgit-repository" at "http://download.eclipse.org/jgit/maven"
-//resolvers += "apache" at "https://mvnrepository.com/artifact/org.apache.kafka"
-// https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams-scala
+val AkkaVersion = "2.6.8"
+
 libraryDependencies += "org.apache.kafka" %% "kafka-streams-scala" % "2.5.0"
+libraryDependencies += "com.typesafe.akka" %% "akka-stream" % AkkaVersion

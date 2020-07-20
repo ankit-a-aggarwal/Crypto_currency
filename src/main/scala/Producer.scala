@@ -1,9 +1,12 @@
 import java.util.Properties
-import org.apache.kafka.clients.producer._
+import org.apache.kafka.clients.producer.{KafkaProducer,ProducerRecord}
+
 class Producer {
+  
   def main(args: Array[String]): Unit = {
     writeToKafka("quick-start")
   }
+
   def writeToKafka(topic: String): Unit = {
     val props = new Properties()
     props.put("bootstrap.servers", "localhost:9094")
