@@ -3,11 +3,15 @@ psql (12.3 (Debian 12.3-1.pgdg100+1))
 Type "help" for help.
 
 postgres=# ALTER USER postgres PASSWORD 'myPassword';
-
+create database cryptoanalysis;
 \c cryptoanalysis
 cryptoanalysis=# select * from exchanges;
 
 ### Use above
+NOTES:
+# This file and its contents are licensed under the Apache License 2.0.
+# Please see the included NOTICE for copyright information and LICENSE for a copy of the license.
+
 TimescaleDB can be accessed via port 5432 on the following DNS name from within your cluster:
 timescaledb.default.svc.cluster.local
 
