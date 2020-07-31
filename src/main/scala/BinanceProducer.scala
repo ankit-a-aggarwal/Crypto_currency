@@ -9,7 +9,6 @@ import akka.stream.scaladsl.{Sink, Source}
 import akka.util.ByteString
 
 import scala.concurrent.Future
-import scala.concurrent.Await
 import scala.concurrent.duration.Duration
 import java.util.concurrent.TimeUnit
 import akka.http.scaladsl.model.ws.Message
